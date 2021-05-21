@@ -2,7 +2,7 @@
 
 裂纹检测系统，本项目基于 [electron-vue](https://github.com/SimulatedGREG/electron-vue) 创建
 
-![](./docs/res/screenshot.png)
+![](docs/res/screenshot.png)
 
 ## 开始
 请确保您已经安装 [Node.js](https://nodejs.org/en/) (版本大于7)以及 [yarn](https://yarnpkg.com/) 软件包管理器
@@ -23,7 +23,7 @@ yarn run build # or npm run build
 ## 系统架构
 裂纹检测系统由采集设备，检测系统以及模型服务器三个部分组成，本项目为检测系统部分
 
-![](./docs/res/architecture.png)
+![](docs/res/architecture.png)
 
 * 采集设备：使用Android手机作为实时图像采集设备可参考 [CrackDetectionMobile](https://github.com/WangYf-zju/CrackDetectionMobile) 项目进行实时推流，您亦可通过其他软件使用 [支持的协议](https://github.com/illuspas/Node-Media-Server#features) 推流
 * 检测系统：内置流媒体服务器，接收图像采集设备上传的视频流；上传实时图像到模型服务器进行预测并显示结果
